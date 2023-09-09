@@ -174,13 +174,16 @@ nav ul li a {
 .banner-logos {
     background-color: #f7f9fa;
     width: 100%;
-    padding: 20px 0;
+    padding: 50px 0;
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .banner-logos header {
     color: #6A6F73;
-    font-size: 19px;
+    font-size: 12px;
+    font-weight: normal;
     margin-bottom: 20px;
 }
 
@@ -192,8 +195,92 @@ nav ul li a {
 
 .logos-container img {
     max-width: 100px;
-    margin: 0 10px;
+    margin: 0 40px;
 }
+
+.course-selection {
+    text-align: left;
+    font-size: 40px;
+    margin-left: 75px;
+    margin-top: 0px;
+    font-family: 'EB Garamond', serif;
+}
+
+.course-selection strong {
+    font-weight: bold;
+}
+
+.small-text {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.python-text {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.banner-Cursos1 {
+    background-color: #fff;
+    border: 2px solid #6a6f73;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    max-width: calc(100% - 150px);
+    margin: 0 auto;
+}
+
+.banner-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 60%;
+}
+
+.banner-text strong {
+    font-weight: bold;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.explore-button {
+    background-color: #ffff;
+    color: #000;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-container {
+    margin-left: 20px;
+    text-align: left;
+}
+
+
+.banner-Cursos1 .course {
+    width: calc(17% - 5px); /* Ancho de cada curso, descontando el espacio entre ellos */
+    margin: 5px; /* Espacio entre los cursos */
+    text-align: left;
+    padding: 15px; /* Espacio interno */
+    background-color: #fff; /* Fondo blanco */
+    display: inline-block; /* Hacer que los cursos se muestren en línea */
+    vertical-align: top; /* Alinear en la parte superior */
+    overflow: hidden;
+}
+
+.banner-Cursos1 .course img {
+    max-width: 100%; /* Hacer que la imagen se ajuste al ancho del contenedor */
+    height: auto; /* Mantener la proporción de la imagen */
+}
+
+.star-rating {
+    font-weight: bold; /* Hacer el número en negrita */
+    margin-right: 5px; /* Agregar espacio entre el número y las estrellas */
+}
+
 
 
 footer {
