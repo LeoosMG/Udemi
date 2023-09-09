@@ -261,27 +261,50 @@ nav ul li a {
 
 
 .banner-Cursos1 .course {
-    width: calc(17% - 5px); /* Ancho de cada curso, descontando el espacio entre ellos */
-    margin: 5px; /* Espacio entre los cursos */
+    width: calc(17% - 5px);
+    margin: 5px;
     text-align: left;
-    padding: 15px; /* Espacio interno */
-    background-color: #fff; /* Fondo blanco */
-    display: inline-block; /* Hacer que los cursos se muestren en línea */
-    vertical-align: top; /* Alinear en la parte superior */
+    padding: 15px;
+    background-color: #fff;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 0.25;
     overflow: hidden;
+    height: 100%
 }
 
 .banner-Cursos1 .course img {
-    max-width: 100%; /* Hacer que la imagen se ajuste al ancho del contenedor */
-    height: auto; /* Mantener la proporción de la imagen */
+    max-width: 100%;
+    height: auto;
 }
 
 .star-rating {
-    font-weight: bold; /* Hacer el número en negrita */
-    margin-right: 5px; /* Agregar espacio entre el número y las estrellas */
+    color: #612012;
+    font-size: 15px;
+    font-weight: bold;
+    margin-right: 5px;
 }
 
+.course-rating .fas {
+    font-size: 10px;
+    color: #b4690e;
+}
 
+.course-title {
+    white-space: pre-line;
+    font-size: 16px;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Cambia este valor a 2 para mostrar solo dos líneas */
+    -webkit-box-orient: vertical;
+}
+
+.instructor-name {
+    color: #6a6f73;
+    font-size: 12px;
+}
 
 footer {
     background-color: #000;
